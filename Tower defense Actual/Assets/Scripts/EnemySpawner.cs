@@ -1,22 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class AngryEnemy : MonoBehaviour
+public class EnemySpawner : MonoBehaviour
 {
 
-    public float walkSpeed = 1f;
-
-    
-
+    [SerializeField] public GameObject Spawner;
 
     // Start is called before the first frame update
     void Start()
     {
-        //transform.Translate(Vector2.down * walkSpeed * Time.deltaTime);
+        InvokeRepeating("Endless", 5, 1);
+    }
 
-        transform.position = Vector2(0, 0);
+    void Endless() 
+    {
+        Instantiate(Spawner);
     }
 
     // Update is called once per frame
