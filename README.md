@@ -2,6 +2,9 @@
 
 eye of evil is een drie lane tower defense waar je zelf de towers moet besturen en zelf met je muis kan aanvallen.
 
+![Gamecap1](/TDscreenshot.PNG)
+![Gamecap2](/TDscreenshot2.PNG)
+
 ## Dry srp
 
 [LINK]() WIP
