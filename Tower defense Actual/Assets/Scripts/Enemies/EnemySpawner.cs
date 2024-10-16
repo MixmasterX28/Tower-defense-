@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Endless", 5, 1);
+        InvokeRepeating("Endless", 5, 3);
     }
 
     void Endless() 

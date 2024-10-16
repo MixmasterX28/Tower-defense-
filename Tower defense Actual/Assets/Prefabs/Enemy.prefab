@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2390959844182729128}
   - component: {fileID: 8478442083599531054}
   - component: {fileID: 6015178843350036463}
+  - component: {fileID: -1983899485386278657}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: enemy
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0.98490566, g: 0.14680658, b: 0.14680658, a: 1}
   m_FlipX: 0
@@ -157,7 +158,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.62, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6015178843350036463
 MonoBehaviour:
@@ -173,22 +174,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 2
   lane1:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 497818635426589681, guid: 6a852c3218c212740b30f91dae09e5d0, type: 3}
+  - {fileID: 5158650596517407645, guid: 06032a64de9bc874a854dc6af524ff32, type: 3}
+  - {fileID: 2637134401596504442, guid: 72907164d3746184ba72310db14b2aed, type: 3}
   lane2:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5158650596517407645, guid: 06032a64de9bc874a854dc6af524ff32, type: 3}
+  - {fileID: 8666970514645150134, guid: 75d3b5b827a4ec4439b617c490118ef5, type: 3}
+  - {fileID: 3667638704985951639, guid: 0d700f4f6a59a714fa7aa53af1323d68, type: 3}
+  - {fileID: 391778276574958838, guid: 8c4bb7249562fa7429eb2c2c58542342, type: 3}
+  - {fileID: 2637134401596504442, guid: 72907164d3746184ba72310db14b2aed, type: 3}
   lane3:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5158650596517407645, guid: 06032a64de9bc874a854dc6af524ff32, type: 3}
+  - {fileID: 8666970514645150134, guid: 75d3b5b827a4ec4439b617c490118ef5, type: 3}
+  - {fileID: 8282237419520778366, guid: f3b70f2b5230dac458affb882ea584f6, type: 3}
+  - {fileID: 1241960653051143246, guid: 8e59181d59a630940a60aeb203a57099, type: 3}
+  - {fileID: 2637134401596504442, guid: 72907164d3746184ba72310db14b2aed, type: 3}
   CurrentPath:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 497818635426589681, guid: 6a852c3218c212740b30f91dae09e5d0, type: 3}
+  - {fileID: 8666970514645150134, guid: 75d3b5b827a4ec4439b617c490118ef5, type: 3}
+  - {fileID: 2637134401596504442, guid: 72907164d3746184ba72310db14b2aed, type: 3}
+--- !u!114 &-1983899485386278657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7834213587697299385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405a6ebc421031246ab46791149dc670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 100

@@ -9,6 +9,7 @@ TagManager:
   - lane1
   - lane2
   - lane3
+  - Attack
   layers:
   - Default
   - TransparentFX
