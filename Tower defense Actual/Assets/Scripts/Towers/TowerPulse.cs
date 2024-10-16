@@ -39,11 +39,6 @@ public class TowerPulse : MonoBehaviour
         Debug.Log("PulseOff");
     }
 
-    void ActiveTime()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -63,4 +58,6 @@ public class TowerPulse : MonoBehaviour
         yield return new WaitForSeconds(10);
         cooldownActive = true;
     }
+
+    
 }

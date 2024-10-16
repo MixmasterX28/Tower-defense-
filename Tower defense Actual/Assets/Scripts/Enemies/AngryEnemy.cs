@@ -25,8 +25,6 @@ public class AngryEnemy : MonoBehaviour
         transform.position = CurrentPath[0].position;
 
         goingPoint = CurrentPath[pointPosition].position;
-
-
     }
 
     private void StartRunning ()
