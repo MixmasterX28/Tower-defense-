@@ -29,6 +29,8 @@ Eyes of Evil final build: de final build van mijn tower defense met alles uitgew
 
 ## game design onderbouwing
 
+![GameDesign](/GameDesign2.png)
+
 ** Game bevat torens die kunnen mikken en schieten op een bewegend doel **
 
 Mijn torens kunnen niet mikken en schieten, in plaats daarvan hebben de toren een soort van AoE pulse aanval die damage kan doen tegen meerdere mensen.
