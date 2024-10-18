@@ -30,7 +30,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator TimerPLR()
     {
         _PlayerBomb.SetActive(true);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         _PlayerBomb.SetActive(false);
         cooldownActivePLR = false;
         yield return new WaitForSeconds(5);

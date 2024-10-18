@@ -24,19 +24,19 @@ public class TowerPulse : MonoBehaviour
         Invoke("PulseOn", 0);
         Invoke("PulseOff", 1);
 
-        Debug.Log("Pulsing");
+        
     }
 
     void PulseOn()
     {
         _AtkPulse.SetActive(true);
-        Debug.Log("PulseOn");
+        
     }
 
     void PulseOff()
     {
         _AtkPulse.SetActive(false);
-        Debug.Log("PulseOff");
+        
     }
 
     // Update is called once per frame
@@ -52,10 +52,10 @@ public class TowerPulse : MonoBehaviour
     }
     IEnumerator timer() 
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(8);
         CancelInvoke("Pulsing");
         cooldownActive = false;
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         cooldownActive = true;
     }
 

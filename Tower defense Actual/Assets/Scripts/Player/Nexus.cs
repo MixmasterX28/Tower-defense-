@@ -27,7 +27,7 @@ public class Nexus : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Attack"))
+        if (!collision.CompareTag("Attack") && !collision.CompareTag("Attack2"))
         {
             NexusTakeDamage(1);
         }

@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.74, y: 3.42, z: 0}
-  m_LocalScale: {x: 2.48, y: 2.48, z: 2.48}
+  m_LocalScale: {x: 0.84, y: 0.84, z: 0.84}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3657015821157217817}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.51073927, g: 0, b: 0.97735846, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 71207f81af89fac42af8ba51b6997023, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -107,6 +107,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2710027305401205130}
     m_Modifications:
+    - target: {fileID: 4240164841349511905, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
+      propertyPath: m_Radius
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5931406458165775087, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_Name
       value: Attack Pulse
@@ -125,23 +129,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.82
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.82
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.82
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.08467744
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -174,6 +178,10 @@ PrefabInstance:
     - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310146218896519502, guid: e863ee5a0a8dc744197367971c2c047f, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

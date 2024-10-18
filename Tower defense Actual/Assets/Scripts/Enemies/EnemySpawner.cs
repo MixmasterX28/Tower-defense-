@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Endless", 5, 3);
+        InvokeRepeating("Endless", 4, 2);
     }
 
     void Endless() 
@@ -18,9 +18,4 @@ public class EnemySpawner : MonoBehaviour
         Instantiate(Spawner);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

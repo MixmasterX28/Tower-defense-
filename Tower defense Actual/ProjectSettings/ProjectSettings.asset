@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: EoE Corporation
   productName: Tower defense
-  defaultCursor: {fileID: 2800000, guid: 5a413a9d1a8f2da47a428cc599136763, type: 3}
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -42,9 +42,9 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: fbdf7787f3da176459296b7259b61d34, type: 3}
+  - logo: {fileID: 21300000, guid: 30c897d2457eeb7488f6a0da59c92586, type: 3}
     duration: 3
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 77fa296f2db98f546b1d04c72f7392d9, type: 3}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: cc80af2c2be910a49b849d0aa8faf24e, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080

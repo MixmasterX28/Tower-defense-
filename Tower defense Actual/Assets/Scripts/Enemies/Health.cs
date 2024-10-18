@@ -31,4 +31,12 @@ public class Health : MonoBehaviour
             TakeDamage(50);
         }
     }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Attack2"))
+        {
+            TakeDamage(1);
+        }
+    }
 }
