@@ -9,12 +9,17 @@ public class TowerPulse : MonoBehaviour
 
     private float cooldown;
     bool cooldownActive = true;
+    private Renderer rend;
+    private Color CooldownOffColor = Color.grey;
+    private Color CooldownOnColor = Color.white;
     
 
     // Start is called before the first frame update
     void Start()
     {
         _AtkPulse.SetActive(false);
+        rend = GetComponent<Renderer>();
+
         
     }
 
@@ -55,8 +60,10 @@ public class TowerPulse : MonoBehaviour
         yield return new WaitForSeconds(8);
         CancelInvoke("Pulsing");
         cooldownActive = false;
+        rend.material.color = CooldownOffColor;
         yield return new WaitForSeconds(5);
         cooldownActive = true;
+        rend.material.color = CooldownOnColor; 
     }
 
     

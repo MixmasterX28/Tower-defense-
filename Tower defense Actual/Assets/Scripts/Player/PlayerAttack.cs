@@ -8,11 +8,15 @@ public class PlayerAttack : MonoBehaviour
 
     private float CooldownPLR;
     bool cooldownActivePLR = true;
+    private Renderer rendPlayer;
+    private Color CooldownOffColor = new Color (1f, 1f, 1f, 0.5f);
+    private Color CooldownOnColor = new Color (1f, 1f, 1f, 1f);
 
     // Start is called before the first frame update
     void Start()
     {
         _PlayerBomb.SetActive(false);
+        rendPlayer = GetComponent<Renderer>();
     }
 
 
@@ -33,7 +37,9 @@ public class PlayerAttack : MonoBehaviour
         yield return new WaitForSeconds(5);
         _PlayerBomb.SetActive(false);
         cooldownActivePLR = false;
+        rendPlayer.material.color = CooldownOffColor;
         yield return new WaitForSeconds(5);
         cooldownActivePLR = true;
+        rendPlayer.material.color= CooldownOnColor;
     }
 }
