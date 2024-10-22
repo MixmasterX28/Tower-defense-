@@ -51,4 +51,8 @@ De game heeft geen wave systeem, inplaats daarvan is het een endless systeem waa
 de enemies en de nexus (Basis van de player) hebben allebij een health systeem. de enemies hebben 100 health en als de health op is gaan ze dood en verwdijnen ze,
 de basis heeft 3 health points en elke keer als een enemy de basis aanraakt dan gaan er een leven vanaf. als er 0 leven zijn dan gaat de game naar een game over screen.
 
-[Game Over](/GameOver.PNG)
+![Game Over](/GameOver.PNG)
+
+## Scrum Planning
+
+[Link naar trello](https://trello.com/b/WPKvxtOX/tower-defense)
